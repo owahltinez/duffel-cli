@@ -1,0 +1,2223 @@
+{
+ "data": {
+  "airline_credit_ids": [],
+  "offers": [
+   {
+    "created_at": "2026-10-02T23:29:41.622377Z",
+    "updated_at": "2026-10-02T23:29:41.622377Z",
+    "id": "off_0000BB168mZg2Sb8TOiT2j",
+    "live_mode": true,
+    "expires_at": "2026-10-03T00:29:41.536805Z",
+    "supported_loyalty_programmes": [
+     "CZ"
+    ],
+    "base_amount": "6197.00",
+    "intended_base_amount": "6197.00",
+    "base_currency": "USD",
+    "tax_amount": "482.3",
+    "tax_currency": "USD",
+    "total_amount": "6679.30",
+    "intended_total_amount": "6679.30",
+    "total_currency": "USD",
+    "total_emissions_kg": "1992",
+    "passenger_identity_documents_required": false,
+    "supported_passenger_identity_document_types": [
+     "known_traveler_number",
+     "passenger_redress_number",
+     "passport"
+    ],
+    "partial": false,
+    "private_fares": [],
+    "conditions": {
+     "change_before_departure": null,
+     "refund_before_departure": null
+    },
+    "owner": {
+     "conditions_of_carriage_url": "https://www.csair.com/cn/tourguide/booking/orders/order/gjysztj/",
+     "iata_code": "CZ",
+     "id": "arl_00009VME7DBgd2sGtBN3GV",
+     "name": "China Southern Airlines"
+    },
+    "slices": [
+     {
+      "id": "sli_0000BB168mZg2Sb8TOiT2d",
+      "duration": "PT23H35M",
+      "destination_type": "airport",
+      "origin_type": "airport",
+      "fare_brand_name": null,
+      "ngs_shelf": 2,
+      "conditions": {
+       "change_before_departure": null,
+       "advance_seat_selection": null,
+       "priority_boarding": null,
+       "priority_check_in": null
+      },
+      "comparison_key": "Bkj/Ig==",
+      "origin": {
+       "iata_code": "MAD",
+       "iata_country_code": "ES",
+       "id": "arp_mad_es",
+       "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+       "latitude": 40.49923,
+       "longitude": -3.567169,
+       "icao_code": "LEMD",
+       "time_zone": "Europe/Madrid",
+       "city_name": "Madrid",
+       "iata_city_code": "MAD",
+       "type": "airport",
+       "city": {
+        "iata_code": "MAD",
+        "iata_country_code": "ES",
+        "id": "cit_mad_es",
+        "name": "Madrid",
+        "latitude": null,
+        "longitude": null,
+        "icao_code": null,
+        "time_zone": null,
+        "city_name": null,
+        "iata_city_code": "MAD",
+        "type": "city"
+       }
+      },
+      "destination": {
+       "iata_code": "SYD",
+       "iata_country_code": "AU",
+       "id": "arp_syd_au",
+       "name": "Sydney Airport",
+       "latitude": -33.943011,
+       "longitude": 151.176138,
+       "icao_code": "YSSY",
+       "time_zone": "Australia/Sydney",
+       "city_name": "Sydney",
+       "iata_city_code": "SYD",
+       "type": "airport",
+       "city": {
+        "iata_code": "SYD",
+        "iata_country_code": "AU",
+        "id": "cit_syd_au",
+        "name": "Sydney",
+        "latitude": null,
+        "longitude": null,
+        "icao_code": null,
+        "time_zone": null,
+        "city_name": null,
+        "iata_city_code": "SYD",
+        "type": "city"
+       }
+      },
+      "segments": [
+       {
+        "id": "seg_0000BB168mZg2Sb8TOiT2b",
+        "arriving_at": "2026-12-27T06:30:00",
+        "departing_at": "2026-12-26T10:50:00",
+        "destination_terminal": null,
+        "distance": null,
+        "duration": "PT12H40M",
+        "marketing_carrier_flight_number": "0378",
+        "operating_carrier_flight_number": "0378",
+        "origin_terminal": null,
+        "passengers": [
+         {
+          "passenger_id": "pas_0000BB168at5USziE7hnd7",
+          "cabin_class": "economy",
+          "cabin_class_marketing_name": "Economy",
+          "fare_basis_code": "Y2AFFYIT",
+          "baggages": [
+           {
+            "type": "checked",
+            "quantity": 2
+           },
+           {
+            "type": "carry_on",
+            "quantity": 1
+           }
+          ],
+          "cabin": {
+           "marketing_name": "Economy",
+           "name": "economy",
+           "amenities": {
+            "wifi": {
+             "available": true,
+             "cost": "paid"
+            },
+            "seat": {
+             "type": "standard",
+             "legroom": "more",
+             "pitch": "32"
+            },
+            "power": {
+             "available": true
+            }
+           }
+          }
+         }
+        ],
+        "stops": [],
+        "aircraft": {
+         "iata_code": "789",
+         "id": "arc_00009Y7sdMgecbtm6IHItE",
+         "name": "Boeing 787-9"
+        },
+        "marketing_carrier": {
+         "conditions_of_carriage_url": "https://www.csair.com/cn/tourguide/booking/orders/order/gjysztj/",
+         "iata_code": "CZ",
+         "id": "arl_00009VME7DBgd2sGtBN3GV",
+         "name": "China Southern Airlines"
+        },
+        "operating_carrier": {
+         "conditions_of_carriage_url": "https://www.csair.com/cn/tourguide/booking/orders/order/gjysztj/",
+         "iata_code": "CZ",
+         "id": "arl_00009VME7DBgd2sGtBN3GV",
+         "name": "China Southern Airlines"
+        },
+        "origin": {
+         "iata_code": "MAD",
+         "iata_country_code": "ES",
+         "id": "arp_mad_es",
+         "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+         "latitude": 40.49923,
+         "longitude": -3.567169,
+         "icao_code": "LEMD",
+         "time_zone": "Europe/Madrid",
+         "city_name": "Madrid",
+         "iata_city_code": "MAD",
+         "type": "airport",
+         "city": {
+          "iata_code": "MAD",
+          "iata_country_code": "ES",
+          "id": "cit_mad_es",
+          "name": "Madrid",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "MAD",
+          "type": "city"
+         }
+        },
+        "destination": {
+         "iata_code": "CAN",
+         "iata_country_code": "CN",
+         "id": "arp_can_cn",
+         "name": "Guangzhou Baiyun International Airport",
+         "latitude": 23.393569,
+         "longitude": 113.301992,
+         "icao_code": "ZGGG",
+         "time_zone": "Asia/Shanghai",
+         "city_name": "Guangzhou",
+         "iata_city_code": "CAN",
+         "type": "airport",
+         "city": null
+        }
+       },
+       {
+        "id": "seg_0000BB168mZg2Sb8TOiT2c",
+        "arriving_at": "2026-12-27T20:25:00",
+        "departing_at": "2026-12-27T08:00:00",
+        "destination_terminal": null,
+        "distance": null,
+        "duration": "PT9H25M",
+        "marketing_carrier_flight_number": "0301",
+        "operating_carrier_flight_number": "0301",
+        "origin_terminal": null,
+        "passengers": [
+         {
+          "passenger_id": "pas_0000BB168at5USziE7hnd7",
+          "cabin_class": "economy",
+          "cabin_class_marketing_name": "Economy",
+          "fare_basis_code": "M2LFFYQQ",
+          "baggages": [
+           {
+            "type": "checked",
+            "quantity": 2
+           },
+           {
+            "type": "carry_on",
+            "quantity": 1
+           }
+          ],
+          "cabin": {
+           "marketing_name": "Economy",
+           "name": "economy",
+           "amenities": {
+            "wifi": {
+             "available": false,
+             "cost": "n/a"
+            },
+            "seat": {
+             "type": "standard",
+             "legroom": "more",
+             "pitch": "32"
+            },
+            "power": {
+             "available": true
+            }
+           }
+          }
+         }
+        ],
+        "stops": [],
+        "aircraft": {
+         "iata_code": "359",
+         "id": "arc_00009Y7soL1P9aXc7ZDTdo",
+         "name": "Airbus A350-900"
+        },
+        "marketing_carrier": {
+         "conditions_of_carriage_url": "https://www.csair.com/cn/tourguide/booking/orders/order/gjysztj/",
+         "iata_code": "CZ",
+         "id": "arl_00009VME7DBgd2sGtBN3GV",
+         "name": "China Southern Airlines"
+        },
+        "operating_carrier": {
+         "conditions_of_carriage_url": "https://www.csair.com/cn/tourguide/booking/orders/order/gjysztj/",
+         "iata_code": "CZ",
+         "id": "arl_00009VME7DBgd2sGtBN3GV",
+         "name": "China Southern Airlines"
+        },
+        "origin": {
+         "iata_code": "CAN",
+         "iata_country_code": "CN",
+         "id": "arp_can_cn",
+         "name": "Guangzhou Baiyun International Airport",
+         "latitude": 23.393569,
+         "longitude": 113.301992,
+         "icao_code": "ZGGG",
+         "time_zone": "Asia/Shanghai",
+         "city_name": "Guangzhou",
+         "iata_city_code": "CAN",
+         "type": "airport",
+         "city": null
+        },
+        "destination": {
+         "iata_code": "SYD",
+         "iata_country_code": "AU",
+         "id": "arp_syd_au",
+         "name": "Sydney Airport",
+         "latitude": -33.943011,
+         "longitude": 151.176138,
+         "icao_code": "YSSY",
+         "time_zone": "Australia/Sydney",
+         "city_name": "Sydney",
+         "iata_city_code": "SYD",
+         "type": "airport",
+         "city": {
+          "iata_code": "SYD",
+          "iata_country_code": "AU",
+          "id": "cit_syd_au",
+          "name": "Sydney",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "SYD",
+          "type": "city"
+         }
+        }
+       }
+      ]
+     },
+     {
+      "id": "sli_0000BB168mZg2Sb8TOiT2h",
+      "duration": "P1DT2H50M",
+      "destination_type": "airport",
+      "origin_type": "airport",
+      "fare_brand_name": null,
+      "ngs_shelf": 2,
+      "conditions": {
+       "change_before_departure": null,
+       "advance_seat_selection": false,
+       "priority_boarding": null,
+       "priority_check_in": null
+      },
+      "comparison_key": "AajhWQ==",
+      "origin": {
+       "iata_code": "SYD",
+       "iata_country_code": "AU",
+       "id": "arp_syd_au",
+       "name": "Sydney Airport",
+       "latitude": -33.943011,
+       "longitude": 151.176138,
+       "icao_code": "YSSY",
+       "time_zone": "Australia/Sydney",
+       "city_name": "Sydney",
+       "iata_city_code": "SYD",
+       "type": "airport",
+       "city": {
+        "iata_code": "SYD",
+        "iata_country_code": "AU",
+        "id": "cit_syd_au",
+        "name": "Sydney",
+        "latitude": null,
+        "longitude": null,
+        "icao_code": null,
+        "time_zone": null,
+        "city_name": null,
+        "iata_city_code": "SYD",
+        "type": "city"
+       }
+      },
+      "destination": {
+       "iata_code": "MAD",
+       "iata_country_code": "ES",
+       "id": "arp_mad_es",
+       "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+       "latitude": 40.49923,
+       "longitude": -3.567169,
+       "icao_code": "LEMD",
+       "time_zone": "Europe/Madrid",
+       "city_name": "Madrid",
+       "iata_city_code": "MAD",
+       "type": "airport",
+       "city": {
+        "iata_code": "MAD",
+        "iata_country_code": "ES",
+        "id": "cit_mad_es",
+        "name": "Madrid",
+        "latitude": null,
+        "longitude": null,
+        "icao_code": null,
+        "time_zone": null,
+        "city_name": null,
+        "iata_city_code": "MAD",
+        "type": "city"
+       }
+      },
+      "segments": [
+       {
+        "id": "seg_0000BB168mZg2Sb8TOiT2f",
+        "arriving_at": "2027-01-18T21:50:00",
+        "departing_at": "2027-01-18T15:10:00",
+        "destination_terminal": null,
+        "distance": null,
+        "duration": "PT9H40M",
+        "marketing_carrier_flight_number": "8092",
+        "operating_carrier_flight_number": "8092",
+        "origin_terminal": null,
+        "passengers": [
+         {
+          "passenger_id": "pas_0000BB168at5USziE7hnd7",
+          "cabin_class": "economy",
+          "cabin_class_marketing_name": "Economy",
+          "fare_basis_code": "M2LFFYQQ",
+          "baggages": [
+           {
+            "type": "checked",
+            "quantity": 2
+           },
+           {
+            "type": "carry_on",
+            "quantity": 1
+           }
+          ],
+          "cabin": {
+           "marketing_name": "Economy",
+           "name": "economy",
+           "amenities": {
+            "wifi": {
+             "available": true,
+             "cost": "paid"
+            },
+            "seat": {
+             "type": "standard",
+             "legroom": "more",
+             "pitch": "32"
+            },
+            "power": {
+             "available": true
+            }
+           }
+          }
+         }
+        ],
+        "stops": [],
+        "aircraft": {
+         "iata_code": "789",
+         "id": "arc_00009Y7sdMgecbtm6IHItE",
+         "name": "Boeing 787-9"
+        },
+        "marketing_carrier": {
+         "conditions_of_carriage_url": "https://www.csair.com/cn/tourguide/booking/orders/order/gjysztj/",
+         "iata_code": "CZ",
+         "id": "arl_00009VME7DBgd2sGtBN3GV",
+         "name": "China Southern Airlines"
+        },
+        "operating_carrier": {
+         "conditions_of_carriage_url": "https://www.csair.com/cn/tourguide/booking/orders/order/gjysztj/",
+         "iata_code": "CZ",
+         "id": "arl_00009VME7DBgd2sGtBN3GV",
+         "name": "China Southern Airlines"
+        },
+        "origin": {
+         "iata_code": "SYD",
+         "iata_country_code": "AU",
+         "id": "arp_syd_au",
+         "name": "Sydney Airport",
+         "latitude": -33.943011,
+         "longitude": 151.176138,
+         "icao_code": "YSSY",
+         "time_zone": "Australia/Sydney",
+         "city_name": "Sydney",
+         "iata_city_code": "SYD",
+         "type": "airport",
+         "city": {
+          "iata_code": "SYD",
+          "iata_country_code": "AU",
+          "id": "cit_syd_au",
+          "name": "Sydney",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "SYD",
+          "type": "city"
+         }
+        },
+        "destination": {
+         "iata_code": "CAN",
+         "iata_country_code": "CN",
+         "id": "arp_can_cn",
+         "name": "Guangzhou Baiyun International Airport",
+         "latitude": 23.393569,
+         "longitude": 113.301992,
+         "icao_code": "ZGGG",
+         "time_zone": "Asia/Shanghai",
+         "city_name": "Guangzhou",
+         "iata_city_code": "CAN",
+         "type": "airport",
+         "city": null
+        }
+       },
+       {
+        "id": "seg_0000BB168mZg2Sb8TOiT2g",
+        "arriving_at": "2027-01-19T08:00:00",
+        "departing_at": "2027-01-19T00:20:00",
+        "destination_terminal": null,
+        "distance": null,
+        "duration": "PT14H40M",
+        "marketing_carrier_flight_number": "0377",
+        "operating_carrier_flight_number": "0377",
+        "origin_terminal": null,
+        "passengers": [
+         {
+          "passenger_id": "pas_0000BB168at5USziE7hnd7",
+          "cabin_class": "economy",
+          "cabin_class_marketing_name": "Economy",
+          "fare_basis_code": "Y2AFFYIT",
+          "baggages": [
+           {
+            "type": "checked",
+            "quantity": 2
+           },
+           {
+            "type": "carry_on",
+            "quantity": 1
+           }
+          ],
+          "cabin": {
+           "marketing_name": "Economy",
+           "name": "economy",
+           "amenities": {
+            "wifi": {
+             "available": true,
+             "cost": "paid"
+            },
+            "seat": {
+             "type": "standard",
+             "legroom": "more",
+             "pitch": "32"
+            },
+            "power": {
+             "available": true
+            }
+           }
+          }
+         }
+        ],
+        "stops": [],
+        "aircraft": {
+         "iata_code": "789",
+         "id": "arc_00009Y7sdMgecbtm6IHItE",
+         "name": "Boeing 787-9"
+        },
+        "marketing_carrier": {
+         "conditions_of_carriage_url": "https://www.csair.com/cn/tourguide/booking/orders/order/gjysztj/",
+         "iata_code": "CZ",
+         "id": "arl_00009VME7DBgd2sGtBN3GV",
+         "name": "China Southern Airlines"
+        },
+        "operating_carrier": {
+         "conditions_of_carriage_url": "https://www.csair.com/cn/tourguide/booking/orders/order/gjysztj/",
+         "iata_code": "CZ",
+         "id": "arl_00009VME7DBgd2sGtBN3GV",
+         "name": "China Southern Airlines"
+        },
+        "origin": {
+         "iata_code": "CAN",
+         "iata_country_code": "CN",
+         "id": "arp_can_cn",
+         "name": "Guangzhou Baiyun International Airport",
+         "latitude": 23.393569,
+         "longitude": 113.301992,
+         "icao_code": "ZGGG",
+         "time_zone": "Asia/Shanghai",
+         "city_name": "Guangzhou",
+         "iata_city_code": "CAN",
+         "type": "airport",
+         "city": null
+        },
+        "destination": {
+         "iata_code": "MAD",
+         "iata_country_code": "ES",
+         "id": "arp_mad_es",
+         "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+         "latitude": 40.49923,
+         "longitude": -3.567169,
+         "icao_code": "LEMD",
+         "time_zone": "Europe/Madrid",
+         "city_name": "Madrid",
+         "iata_city_code": "MAD",
+         "type": "airport",
+         "city": {
+          "iata_code": "MAD",
+          "iata_country_code": "ES",
+          "id": "cit_mad_es",
+          "name": "Madrid",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "MAD",
+          "type": "city"
+         }
+        }
+       }
+      ]
+     }
+    ],
+    "passengers": [
+     {
+      "id": "pas_0000BB168at5USziE7hnd7",
+      "type": "adult",
+      "fare_type": null,
+      "age": null,
+      "given_name": null,
+      "family_name": null,
+      "loyalty_programme_accounts": []
+     }
+    ],
+    "available_services": null,
+    "payment_requirements": {
+     "requires_instant_payment": false,
+     "payment_required_by": "2026-10-03T23:29:41.536754Z",
+     "price_guarantee_expires_at": null
+    },
+    "intended_services": null,
+    "available_airline_credit_ids": []
+   },
+   {
+    "created_at": "2026-10-02T23:29:41.622377Z",
+    "updated_at": "2026-10-02T23:29:41.622377Z",
+    "id": "off_0000BB168nBxk7DsO8d2iR",
+    "live_mode": true,
+    "expires_at": "2026-10-03T00:29:41.604857Z",
+    "supported_loyalty_programmes": [
+     "EY"
+    ],
+    "base_amount": "996.00",
+    "intended_base_amount": "996.00",
+    "base_currency": "USD",
+    "tax_amount": "643.7",
+    "tax_currency": "USD",
+    "total_amount": "1639.70",
+    "intended_total_amount": "1639.70",
+    "total_currency": "USD",
+    "total_emissions_kg": "1990",
+    "passenger_identity_documents_required": false,
+    "supported_passenger_identity_document_types": [
+     "known_traveler_number",
+     "passenger_redress_number",
+     "passport"
+    ],
+    "partial": false,
+    "private_fares": [],
+    "conditions": {
+     "change_before_departure": null,
+     "refund_before_departure": null
+    },
+    "owner": {
+     "conditions_of_carriage_url": "https://www.etihad.com/en-gb/legal/conditions-of-carriage",
+     "iata_code": "EY",
+     "id": "arl_00009VME7DC2bj9quHXKoY",
+     "name": "Etihad Airways"
+    },
+    "slices": [
+     {
+      "id": "sli_0000BB168nBxk7DsO8d2iI",
+      "duration": "PT22H",
+      "destination_type": "airport",
+      "origin_type": "airport",
+      "fare_brand_name": "Economy Basic",
+      "ngs_shelf": 1,
+      "conditions": {
+       "change_before_departure": null,
+       "advance_seat_selection": null,
+       "priority_boarding": null,
+       "priority_check_in": null
+      },
+      "comparison_key": "BndUZw==",
+      "origin": {
+       "iata_code": "MAD",
+       "iata_country_code": "ES",
+       "id": "arp_mad_es",
+       "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+       "latitude": 40.49923,
+       "longitude": -3.567169,
+       "icao_code": "LEMD",
+       "time_zone": "Europe/Madrid",
+       "city_name": "Madrid",
+       "iata_city_code": "MAD",
+       "type": "airport",
+       "city": {
+        "iata_code": "MAD",
+        "iata_country_code": "ES",
+        "id": "cit_mad_es",
+        "name": "Madrid",
+        "latitude": null,
+        "longitude": null,
+        "icao_code": null,
+        "time_zone": null,
+        "city_name": null,
+        "iata_city_code": "MAD",
+        "type": "city"
+       }
+      },
+      "destination": {
+       "iata_code": "SYD",
+       "iata_country_code": "AU",
+       "id": "arp_syd_au",
+       "name": "Sydney Airport",
+       "latitude": -33.943011,
+       "longitude": 151.176138,
+       "icao_code": "YSSY",
+       "time_zone": "Australia/Sydney",
+       "city_name": "Sydney",
+       "iata_city_code": "SYD",
+       "type": "airport",
+       "city": {
+        "iata_code": "SYD",
+        "iata_country_code": "AU",
+        "id": "cit_syd_au",
+        "name": "Sydney",
+        "latitude": null,
+        "longitude": null,
+        "icao_code": null,
+        "time_zone": null,
+        "city_name": null,
+        "iata_city_code": "SYD",
+        "type": "city"
+       }
+      },
+      "segments": [
+       {
+        "id": "seg_0000BB168nBxk7DsO8d2i8",
+        "arriving_at": "2026-12-26T19:35:00",
+        "departing_at": "2026-12-26T09:45:00",
+        "destination_terminal": null,
+        "distance": null,
+        "duration": "PT6H50M",
+        "marketing_carrier_flight_number": "0102",
+        "operating_carrier_flight_number": "0102",
+        "origin_terminal": null,
+        "passengers": [
+         {
+          "passenger_id": "pas_0000BB168at5USziE7hnd7",
+          "cabin_class": "economy",
+          "cabin_class_marketing_name": "Economy",
+          "fare_basis_code": "UHN1KH29",
+          "baggages": [
+           {
+            "type": "carry_on",
+            "quantity": 1
+           }
+          ],
+          "cabin": {
+           "marketing_name": "Economy",
+           "name": "economy",
+           "amenities": {
+            "wifi": {
+             "available": true,
+             "cost": "paid"
+            },
+            "seat": {
+             "type": "standard",
+             "legroom": "standard",
+             "pitch": "31"
+            },
+            "power": {
+             "available": true
+            }
+           }
+          }
+         }
+        ],
+        "stops": [],
+        "aircraft": {
+         "iata_code": "781",
+         "id": "arc_00009oBdrPis4D1mAnklla",
+         "name": "Boeing 787-10"
+        },
+        "marketing_carrier": {
+         "conditions_of_carriage_url": "https://www.etihad.com/en-gb/legal/conditions-of-carriage",
+         "iata_code": "EY",
+         "id": "arl_00009VME7DC2bj9quHXKoY",
+         "name": "Etihad Airways"
+        },
+        "operating_carrier": {
+         "conditions_of_carriage_url": "https://www.etihad.com/en-gb/legal/conditions-of-carriage",
+         "iata_code": "EY",
+         "id": "arl_00009VME7DC2bj9quHXKoY",
+         "name": "Etihad Airways"
+        },
+        "origin": {
+         "iata_code": "MAD",
+         "iata_country_code": "ES",
+         "id": "arp_mad_es",
+         "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+         "latitude": 40.49923,
+         "longitude": -3.567169,
+         "icao_code": "LEMD",
+         "time_zone": "Europe/Madrid",
+         "city_name": "Madrid",
+         "iata_city_code": "MAD",
+         "type": "airport",
+         "city": {
+          "iata_code": "MAD",
+          "iata_country_code": "ES",
+          "id": "cit_mad_es",
+          "name": "Madrid",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "MAD",
+          "type": "city"
+         }
+        },
+        "destination": {
+         "iata_code": "AUH",
+         "iata_country_code": "AE",
+         "id": "arp_auh_ae",
+         "name": "Abu Dhabi International Airport",
+         "latitude": 24.437469,
+         "longitude": 54.650586,
+         "icao_code": "OMAA",
+         "time_zone": "Asia/Dubai",
+         "city_name": "Abu Dhabi",
+         "iata_city_code": "AUH",
+         "type": "airport",
+         "city": {
+          "iata_code": "AUH",
+          "iata_country_code": "AE",
+          "id": "cit_auh_ae",
+          "name": "Abu Dhabi",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "AUH",
+          "type": "city"
+         }
+        }
+       },
+       {
+        "id": "seg_0000BB168nBxk7DsO8d2iG",
+        "arriving_at": "2026-12-27T17:45:00",
+        "departing_at": "2026-12-26T21:05:00",
+        "destination_terminal": null,
+        "distance": null,
+        "duration": "PT13H40M",
+        "marketing_carrier_flight_number": "0454",
+        "operating_carrier_flight_number": "0454",
+        "origin_terminal": null,
+        "passengers": [
+         {
+          "passenger_id": "pas_0000BB168at5USziE7hnd7",
+          "cabin_class": "economy",
+          "cabin_class_marketing_name": "Economy",
+          "fare_basis_code": "UHN1KH29",
+          "baggages": [
+           {
+            "type": "carry_on",
+            "quantity": 1
+           }
+          ],
+          "cabin": {
+           "marketing_name": "Economy",
+           "name": "economy",
+           "amenities": {
+            "wifi": {
+             "available": true,
+             "cost": "paid"
+            },
+            "seat": {
+             "type": "standard",
+             "legroom": "standard",
+             "pitch": "31"
+            },
+            "power": {
+             "available": true
+            }
+           }
+          }
+         }
+        ],
+        "stops": [],
+        "aircraft": {
+         "iata_code": "351",
+         "id": "arc_00009oBdrPiW5WkC9haUCo",
+         "name": "Airbus A350-1000"
+        },
+        "marketing_carrier": {
+         "conditions_of_carriage_url": "https://www.etihad.com/en-gb/legal/conditions-of-carriage",
+         "iata_code": "EY",
+         "id": "arl_00009VME7DC2bj9quHXKoY",
+         "name": "Etihad Airways"
+        },
+        "operating_carrier": {
+         "conditions_of_carriage_url": "https://www.etihad.com/en-gb/legal/conditions-of-carriage",
+         "iata_code": "EY",
+         "id": "arl_00009VME7DC2bj9quHXKoY",
+         "name": "Etihad Airways"
+        },
+        "origin": {
+         "iata_code": "AUH",
+         "iata_country_code": "AE",
+         "id": "arp_auh_ae",
+         "name": "Abu Dhabi International Airport",
+         "latitude": 24.437469,
+         "longitude": 54.650586,
+         "icao_code": "OMAA",
+         "time_zone": "Asia/Dubai",
+         "city_name": "Abu Dhabi",
+         "iata_city_code": "AUH",
+         "type": "airport",
+         "city": {
+          "iata_code": "AUH",
+          "iata_country_code": "AE",
+          "id": "cit_auh_ae",
+          "name": "Abu Dhabi",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "AUH",
+          "type": "city"
+         }
+        },
+        "destination": {
+         "iata_code": "SYD",
+         "iata_country_code": "AU",
+         "id": "arp_syd_au",
+         "name": "Sydney Airport",
+         "latitude": -33.943011,
+         "longitude": 151.176138,
+         "icao_code": "YSSY",
+         "time_zone": "Australia/Sydney",
+         "city_name": "Sydney",
+         "iata_city_code": "SYD",
+         "type": "airport",
+         "city": {
+          "iata_code": "SYD",
+          "iata_country_code": "AU",
+          "id": "cit_syd_au",
+          "name": "Sydney",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "SYD",
+          "type": "city"
+         }
+        }
+       }
+      ]
+     },
+     {
+      "id": "sli_0000BB168nBxk7DsO8d2iP",
+      "duration": "P1DT35M",
+      "destination_type": "airport",
+      "origin_type": "airport",
+      "fare_brand_name": "Economy Basic",
+      "ngs_shelf": 1,
+      "conditions": {
+       "change_before_departure": null,
+       "advance_seat_selection": null,
+       "priority_boarding": null,
+       "priority_check_in": null
+      },
+      "comparison_key": "BDNNfw==",
+      "origin": {
+       "iata_code": "SYD",
+       "iata_country_code": "AU",
+       "id": "arp_syd_au",
+       "name": "Sydney Airport",
+       "latitude": -33.943011,
+       "longitude": 151.176138,
+       "icao_code": "YSSY",
+       "time_zone": "Australia/Sydney",
+       "city_name": "Sydney",
+       "iata_city_code": "SYD",
+       "type": "airport",
+       "city": {
+        "iata_code": "SYD",
+        "iata_country_code": "AU",
+        "id": "cit_syd_au",
+        "name": "Sydney",
+        "latitude": null,
+        "longitude": null,
+        "icao_code": null,
+        "time_zone": null,
+        "city_name": null,
+        "iata_city_code": "SYD",
+        "type": "city"
+       }
+      },
+      "destination": {
+       "iata_code": "MAD",
+       "iata_country_code": "ES",
+       "id": "arp_mad_es",
+       "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+       "latitude": 40.49923,
+       "longitude": -3.567169,
+       "icao_code": "LEMD",
+       "time_zone": "Europe/Madrid",
+       "city_name": "Madrid",
+       "iata_city_code": "MAD",
+       "type": "airport",
+       "city": {
+        "iata_code": "MAD",
+        "iata_country_code": "ES",
+        "id": "cit_mad_es",
+        "name": "Madrid",
+        "latitude": null,
+        "longitude": null,
+        "icao_code": null,
+        "time_zone": null,
+        "city_name": null,
+        "iata_city_code": "MAD",
+        "type": "city"
+       }
+      },
+      "segments": [
+       {
+        "id": "seg_0000BB168nBxk7DsO8d2iL",
+        "arriving_at": "2027-01-19T00:25:00",
+        "departing_at": "2027-01-18T16:50:00",
+        "destination_terminal": null,
+        "distance": null,
+        "duration": "PT14H35M",
+        "marketing_carrier_flight_number": "0451",
+        "operating_carrier_flight_number": "0451",
+        "origin_terminal": null,
+        "passengers": [
+         {
+          "passenger_id": "pas_0000BB168at5USziE7hnd7",
+          "cabin_class": "economy",
+          "cabin_class_marketing_name": "Economy",
+          "fare_basis_code": "UHN1KH29",
+          "baggages": [
+           {
+            "type": "carry_on",
+            "quantity": 1
+           }
+          ],
+          "cabin": {
+           "marketing_name": "Economy",
+           "name": "economy",
+           "amenities": {
+            "wifi": {
+             "available": true,
+             "cost": "paid"
+            },
+            "seat": {
+             "type": "standard",
+             "legroom": "standard",
+             "pitch": "31"
+            },
+            "power": {
+             "available": true
+            }
+           }
+          }
+         }
+        ],
+        "stops": [],
+        "aircraft": {
+         "iata_code": "351",
+         "id": "arc_00009oBdrPiW5WkC9haUCo",
+         "name": "Airbus A350-1000"
+        },
+        "marketing_carrier": {
+         "conditions_of_carriage_url": "https://www.etihad.com/en-gb/legal/conditions-of-carriage",
+         "iata_code": "EY",
+         "id": "arl_00009VME7DC2bj9quHXKoY",
+         "name": "Etihad Airways"
+        },
+        "operating_carrier": {
+         "conditions_of_carriage_url": "https://www.etihad.com/en-gb/legal/conditions-of-carriage",
+         "iata_code": "EY",
+         "id": "arl_00009VME7DC2bj9quHXKoY",
+         "name": "Etihad Airways"
+        },
+        "origin": {
+         "iata_code": "SYD",
+         "iata_country_code": "AU",
+         "id": "arp_syd_au",
+         "name": "Sydney Airport",
+         "latitude": -33.943011,
+         "longitude": 151.176138,
+         "icao_code": "YSSY",
+         "time_zone": "Australia/Sydney",
+         "city_name": "Sydney",
+         "iata_city_code": "SYD",
+         "type": "airport",
+         "city": {
+          "iata_code": "SYD",
+          "iata_country_code": "AU",
+          "id": "cit_syd_au",
+          "name": "Sydney",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "SYD",
+          "type": "city"
+         }
+        },
+        "destination": {
+         "iata_code": "AUH",
+         "iata_country_code": "AE",
+         "id": "arp_auh_ae",
+         "name": "Abu Dhabi International Airport",
+         "latitude": 24.437469,
+         "longitude": 54.650586,
+         "icao_code": "OMAA",
+         "time_zone": "Asia/Dubai",
+         "city_name": "Abu Dhabi",
+         "iata_city_code": "AUH",
+         "type": "airport",
+         "city": {
+          "iata_code": "AUH",
+          "iata_country_code": "AE",
+          "id": "cit_auh_ae",
+          "name": "Abu Dhabi",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "AUH",
+          "type": "city"
+         }
+        }
+       },
+       {
+        "id": "seg_0000BB168nBxk7DsO8d2iN",
+        "arriving_at": "2027-01-19T07:25:00",
+        "departing_at": "2027-01-19T02:35:00",
+        "destination_terminal": null,
+        "distance": null,
+        "duration": "PT7H50M",
+        "marketing_carrier_flight_number": "0101",
+        "operating_carrier_flight_number": "0101",
+        "origin_terminal": null,
+        "passengers": [
+         {
+          "passenger_id": "pas_0000BB168at5USziE7hnd7",
+          "cabin_class": "economy",
+          "cabin_class_marketing_name": "Economy",
+          "fare_basis_code": "UHN1KH29",
+          "baggages": [
+           {
+            "type": "carry_on",
+            "quantity": 1
+           }
+          ],
+          "cabin": {
+           "marketing_name": "Economy",
+           "name": "economy",
+           "amenities": {
+            "wifi": {
+             "available": true,
+             "cost": "paid"
+            },
+            "seat": {
+             "type": "standard",
+             "legroom": "standard",
+             "pitch": "31"
+            },
+            "power": {
+             "available": true
+            }
+           }
+          }
+         }
+        ],
+        "stops": [],
+        "aircraft": {
+         "iata_code": "781",
+         "id": "arc_00009oBdrPis4D1mAnklla",
+         "name": "Boeing 787-10"
+        },
+        "marketing_carrier": {
+         "conditions_of_carriage_url": "https://www.etihad.com/en-gb/legal/conditions-of-carriage",
+         "iata_code": "EY",
+         "id": "arl_00009VME7DC2bj9quHXKoY",
+         "name": "Etihad Airways"
+        },
+        "operating_carrier": {
+         "conditions_of_carriage_url": "https://www.etihad.com/en-gb/legal/conditions-of-carriage",
+         "iata_code": "EY",
+         "id": "arl_00009VME7DC2bj9quHXKoY",
+         "name": "Etihad Airways"
+        },
+        "origin": {
+         "iata_code": "AUH",
+         "iata_country_code": "AE",
+         "id": "arp_auh_ae",
+         "name": "Abu Dhabi International Airport",
+         "latitude": 24.437469,
+         "longitude": 54.650586,
+         "icao_code": "OMAA",
+         "time_zone": "Asia/Dubai",
+         "city_name": "Abu Dhabi",
+         "iata_city_code": "AUH",
+         "type": "airport",
+         "city": {
+          "iata_code": "AUH",
+          "iata_country_code": "AE",
+          "id": "cit_auh_ae",
+          "name": "Abu Dhabi",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "AUH",
+          "type": "city"
+         }
+        },
+        "destination": {
+         "iata_code": "MAD",
+         "iata_country_code": "ES",
+         "id": "arp_mad_es",
+         "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+         "latitude": 40.49923,
+         "longitude": -3.567169,
+         "icao_code": "LEMD",
+         "time_zone": "Europe/Madrid",
+         "city_name": "Madrid",
+         "iata_city_code": "MAD",
+         "type": "airport",
+         "city": {
+          "iata_code": "MAD",
+          "iata_country_code": "ES",
+          "id": "cit_mad_es",
+          "name": "Madrid",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "MAD",
+          "type": "city"
+         }
+        }
+       }
+      ]
+     }
+    ],
+    "passengers": [
+     {
+      "id": "pas_0000BB168at5USziE7hnd7",
+      "type": "adult",
+      "fare_type": null,
+      "age": null,
+      "given_name": null,
+      "family_name": null,
+      "loyalty_programme_accounts": []
+     }
+    ],
+    "available_services": null,
+    "payment_requirements": {
+     "requires_instant_payment": false,
+     "payment_required_by": "2026-10-03T23:29:41.604797Z",
+     "price_guarantee_expires_at": null
+    },
+    "intended_services": null,
+    "available_airline_credit_ids": []
+   },
+   {
+    "created_at": "2026-10-02T23:29:41.622377Z",
+    "updated_at": "2026-10-02T23:29:41.622377Z",
+    "id": "off_0000BB168nAto4N8Kq8C3X",
+    "live_mode": true,
+    "expires_at": "2026-10-03T00:29:41.603506Z",
+    "supported_loyalty_programmes": [
+     "AR",
+     "AM",
+     "KQ",
+     "SU",
+     "ME",
+     "CI",
+     "MU",
+     "MF",
+     "SK",
+     "AF",
+     "KL",
+     "VS",
+     "GA",
+     "VN",
+     "OK",
+     "DL",
+     "KE",
+     "UX",
+     "AZ"
+    ],
+    "base_amount": "1021.00",
+    "intended_base_amount": "1021.00",
+    "base_currency": "USD",
+    "tax_amount": "499.1",
+    "tax_currency": "USD",
+    "total_amount": "1520.10",
+    "intended_total_amount": "1520.10",
+    "total_currency": "USD",
+    "total_emissions_kg": "2016",
+    "passenger_identity_documents_required": false,
+    "supported_passenger_identity_document_types": [
+     "known_traveler_number",
+     "passenger_redress_number",
+     "passport"
+    ],
+    "partial": false,
+    "private_fares": [],
+    "conditions": {
+     "change_before_departure": null,
+     "refund_before_departure": null
+    },
+    "owner": {
+     "conditions_of_carriage_url": "https://uk.ceair.com/newCMS/uk/en/content/en_Footer/AboutUS/201904/t20190404_5758.html",
+     "iata_code": "MU",
+     "id": "arl_00009VME7DBgd2sGtBN3GR",
+     "name": "China Eastern Airlines"
+    },
+    "slices": [
+     {
+      "id": "sli_0000BB168nABqhnyIdncwu",
+      "duration": "P1DT10H50M",
+      "destination_type": "airport",
+      "origin_type": "airport",
+      "fare_brand_name": "Economy Standard",
+      "ngs_shelf": 2,
+      "conditions": {
+       "change_before_departure": null,
+       "advance_seat_selection": null,
+       "priority_boarding": null,
+       "priority_check_in": null
+      },
+      "comparison_key": "Bwn86g==",
+      "origin": {
+       "iata_code": "MAD",
+       "iata_country_code": "ES",
+       "id": "arp_mad_es",
+       "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+       "latitude": 40.49923,
+       "longitude": -3.567169,
+       "icao_code": "LEMD",
+       "time_zone": "Europe/Madrid",
+       "city_name": "Madrid",
+       "iata_city_code": "MAD",
+       "type": "airport",
+       "city": {
+        "iata_code": "MAD",
+        "iata_country_code": "ES",
+        "id": "cit_mad_es",
+        "name": "Madrid",
+        "latitude": null,
+        "longitude": null,
+        "icao_code": null,
+        "time_zone": null,
+        "city_name": null,
+        "iata_city_code": "MAD",
+        "type": "city"
+       }
+      },
+      "destination": {
+       "iata_code": "SYD",
+       "iata_country_code": "AU",
+       "id": "arp_syd_au",
+       "name": "Sydney Airport",
+       "latitude": -33.943011,
+       "longitude": 151.176138,
+       "icao_code": "YSSY",
+       "time_zone": "Australia/Sydney",
+       "city_name": "Sydney",
+       "iata_city_code": "SYD",
+       "type": "airport",
+       "city": {
+        "iata_code": "SYD",
+        "iata_country_code": "AU",
+        "id": "cit_syd_au",
+        "name": "Sydney",
+        "latitude": null,
+        "longitude": null,
+        "icao_code": null,
+        "time_zone": null,
+        "city_name": null,
+        "iata_city_code": "SYD",
+        "type": "city"
+       }
+      },
+      "segments": [
+       {
+        "id": "seg_0000BB168nABqhnyIdncwq",
+        "arriving_at": "2026-12-27T06:20:00",
+        "departing_at": "2026-12-26T10:30:00",
+        "destination_terminal": null,
+        "distance": null,
+        "duration": "PT12H50M",
+        "marketing_carrier_flight_number": "0710",
+        "operating_carrier_flight_number": "0710",
+        "origin_terminal": null,
+        "passengers": [
+         {
+          "passenger_id": "pas_0000BB168at5USziE7hnd7",
+          "cabin_class": "economy",
+          "cabin_class_marketing_name": "Economy",
+          "fare_basis_code": "R0Q0ABSA",
+          "baggages": [
+           {
+            "type": "checked",
+            "quantity": 2
+           },
+           {
+            "type": "carry_on",
+            "quantity": 1
+           }
+          ],
+          "cabin": {
+           "marketing_name": "Economy",
+           "name": "economy",
+           "amenities": {
+            "wifi": {
+             "available": true,
+             "cost": "free"
+            },
+            "seat": {
+             "type": "standard",
+             "legroom": "standard",
+             "pitch": "31"
+            },
+            "power": {
+             "available": true
+            }
+           }
+          }
+         }
+        ],
+        "stops": [],
+        "aircraft": {
+         "iata_code": "359",
+         "id": "arc_00009Y7soL1P9aXc7ZDTdo",
+         "name": "Airbus A350-900"
+        },
+        "marketing_carrier": {
+         "conditions_of_carriage_url": "https://uk.ceair.com/newCMS/uk/en/content/en_Footer/AboutUS/201904/t20190404_5758.html",
+         "iata_code": "MU",
+         "id": "arl_00009VME7DBgd2sGtBN3GR",
+         "name": "China Eastern Airlines"
+        },
+        "operating_carrier": {
+         "conditions_of_carriage_url": "https://uk.ceair.com/newCMS/uk/en/content/en_Footer/AboutUS/201904/t20190404_5758.html",
+         "iata_code": "MU",
+         "id": "arl_00009VME7DBgd2sGtBN3GR",
+         "name": "China Eastern Airlines"
+        },
+        "origin": {
+         "iata_code": "MAD",
+         "iata_country_code": "ES",
+         "id": "arp_mad_es",
+         "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+         "latitude": 40.49923,
+         "longitude": -3.567169,
+         "icao_code": "LEMD",
+         "time_zone": "Europe/Madrid",
+         "city_name": "Madrid",
+         "iata_city_code": "MAD",
+         "type": "airport",
+         "city": {
+          "iata_code": "MAD",
+          "iata_country_code": "ES",
+          "id": "cit_mad_es",
+          "name": "Madrid",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "MAD",
+          "type": "city"
+         }
+        },
+        "destination": {
+         "iata_code": "PVG",
+         "iata_country_code": "CN",
+         "id": "arp_pvg_cn",
+         "name": "Shanghai Pudong International Airport",
+         "latitude": 31.143872,
+         "longitude": 121.806636,
+         "icao_code": "ZSPD",
+         "time_zone": "Asia/Shanghai",
+         "city_name": "Shanghai",
+         "iata_city_code": "SHA",
+         "type": "airport",
+         "city": {
+          "iata_code": "SHA",
+          "iata_country_code": "CN",
+          "id": "cit_sha_cn",
+          "name": "Shanghai",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "SHA",
+          "type": "city"
+         }
+        }
+       },
+       {
+        "id": "seg_0000BB168nABqhnyIdncws",
+        "arriving_at": "2026-12-28T07:20:00",
+        "departing_at": "2026-12-27T17:45:00",
+        "destination_terminal": null,
+        "distance": null,
+        "duration": "PT10H35M",
+        "marketing_carrier_flight_number": "0743",
+        "operating_carrier_flight_number": "0743",
+        "origin_terminal": null,
+        "passengers": [
+         {
+          "passenger_id": "pas_0000BB168at5USziE7hnd7",
+          "cabin_class": "economy",
+          "cabin_class_marketing_name": "Economy",
+          "fare_basis_code": "R0Q0ABSA",
+          "baggages": [
+           {
+            "type": "checked",
+            "quantity": 2
+           },
+           {
+            "type": "carry_on",
+            "quantity": 1
+           }
+          ],
+          "cabin": {
+           "marketing_name": "Economy",
+           "name": "economy",
+           "amenities": {
+            "wifi": {
+             "available": true,
+             "cost": "free"
+            },
+            "seat": {
+             "type": "standard",
+             "legroom": "more",
+             "pitch": "32"
+            },
+            "power": {
+             "available": true
+            }
+           }
+          }
+         }
+        ],
+        "stops": [],
+        "aircraft": {
+         "iata_code": "333",
+         "id": "arc_00009VMF8AgpV5sdO0xXAw",
+         "name": "Airbus A330-300"
+        },
+        "marketing_carrier": {
+         "conditions_of_carriage_url": "https://uk.ceair.com/newCMS/uk/en/content/en_Footer/AboutUS/201904/t20190404_5758.html",
+         "iata_code": "MU",
+         "id": "arl_00009VME7DBgd2sGtBN3GR",
+         "name": "China Eastern Airlines"
+        },
+        "operating_carrier": {
+         "conditions_of_carriage_url": "https://uk.ceair.com/newCMS/uk/en/content/en_Footer/AboutUS/201904/t20190404_5758.html",
+         "iata_code": "MU",
+         "id": "arl_00009VME7DBgd2sGtBN3GR",
+         "name": "China Eastern Airlines"
+        },
+        "origin": {
+         "iata_code": "PVG",
+         "iata_country_code": "CN",
+         "id": "arp_pvg_cn",
+         "name": "Shanghai Pudong International Airport",
+         "latitude": 31.143872,
+         "longitude": 121.806636,
+         "icao_code": "ZSPD",
+         "time_zone": "Asia/Shanghai",
+         "city_name": "Shanghai",
+         "iata_city_code": "SHA",
+         "type": "airport",
+         "city": {
+          "iata_code": "SHA",
+          "iata_country_code": "CN",
+          "id": "cit_sha_cn",
+          "name": "Shanghai",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "SHA",
+          "type": "city"
+         }
+        },
+        "destination": {
+         "iata_code": "SYD",
+         "iata_country_code": "AU",
+         "id": "arp_syd_au",
+         "name": "Sydney Airport",
+         "latitude": -33.943011,
+         "longitude": 151.176138,
+         "icao_code": "YSSY",
+         "time_zone": "Australia/Sydney",
+         "city_name": "Sydney",
+         "iata_city_code": "SYD",
+         "type": "airport",
+         "city": {
+          "iata_code": "SYD",
+          "iata_country_code": "AU",
+          "id": "cit_syd_au",
+          "name": "Sydney",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "SYD",
+          "type": "city"
+         }
+        }
+       }
+      ]
+     },
+     {
+      "id": "sli_0000BB168nAto4N8Kq8C3S",
+      "duration": "P1DT6H",
+      "destination_type": "airport",
+      "origin_type": "airport",
+      "fare_brand_name": "Economy Standard",
+      "ngs_shelf": 2,
+      "conditions": {
+       "change_before_departure": null,
+       "advance_seat_selection": null,
+       "priority_boarding": null,
+       "priority_check_in": null
+      },
+      "comparison_key": "FdNB",
+      "origin": {
+       "iata_code": "SYD",
+       "iata_country_code": "AU",
+       "id": "arp_syd_au",
+       "name": "Sydney Airport",
+       "latitude": -33.943011,
+       "longitude": 151.176138,
+       "icao_code": "YSSY",
+       "time_zone": "Australia/Sydney",
+       "city_name": "Sydney",
+       "iata_city_code": "SYD",
+       "type": "airport",
+       "city": {
+        "iata_code": "SYD",
+        "iata_country_code": "AU",
+        "id": "cit_syd_au",
+        "name": "Sydney",
+        "latitude": null,
+        "longitude": null,
+        "icao_code": null,
+        "time_zone": null,
+        "city_name": null,
+        "iata_city_code": "SYD",
+        "type": "city"
+       }
+      },
+      "destination": {
+       "iata_code": "MAD",
+       "iata_country_code": "ES",
+       "id": "arp_mad_es",
+       "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+       "latitude": 40.49923,
+       "longitude": -3.567169,
+       "icao_code": "LEMD",
+       "time_zone": "Europe/Madrid",
+       "city_name": "Madrid",
+       "iata_city_code": "MAD",
+       "type": "airport",
+       "city": {
+        "iata_code": "MAD",
+        "iata_country_code": "ES",
+        "id": "cit_mad_es",
+        "name": "Madrid",
+        "latitude": null,
+        "longitude": null,
+        "icao_code": null,
+        "time_zone": null,
+        "city_name": null,
+        "iata_city_code": "MAD",
+        "type": "city"
+       }
+      },
+      "segments": [
+       {
+        "id": "seg_0000BB168nAto4N8Kq8C3P",
+        "arriving_at": "2027-01-18T19:35:00",
+        "departing_at": "2027-01-18T12:00:00",
+        "destination_terminal": null,
+        "distance": null,
+        "duration": "PT10H35M",
+        "marketing_carrier_flight_number": "0562",
+        "operating_carrier_flight_number": "0562",
+        "origin_terminal": null,
+        "passengers": [
+         {
+          "passenger_id": "pas_0000BB168at5USziE7hnd7",
+          "cabin_class": "economy",
+          "cabin_class_marketing_name": "Economy",
+          "fare_basis_code": "T0Q0ABSD",
+          "baggages": [
+           {
+            "type": "checked",
+            "quantity": 2
+           },
+           {
+            "type": "carry_on",
+            "quantity": 1
+           }
+          ],
+          "cabin": {
+           "marketing_name": "Economy",
+           "name": "economy",
+           "amenities": {
+            "wifi": {
+             "available": true,
+             "cost": "free"
+            },
+            "seat": {
+             "type": "standard",
+             "legroom": "standard",
+             "pitch": "31"
+            },
+            "power": {
+             "available": true
+            }
+           }
+          }
+         }
+        ],
+        "stops": [],
+        "aircraft": {
+         "iata_code": "359",
+         "id": "arc_00009Y7soL1P9aXc7ZDTdo",
+         "name": "Airbus A350-900"
+        },
+        "marketing_carrier": {
+         "conditions_of_carriage_url": "https://uk.ceair.com/newCMS/uk/en/content/en_Footer/AboutUS/201904/t20190404_5758.html",
+         "iata_code": "MU",
+         "id": "arl_00009VME7DBgd2sGtBN3GR",
+         "name": "China Eastern Airlines"
+        },
+        "operating_carrier": {
+         "conditions_of_carriage_url": "https://uk.ceair.com/newCMS/uk/en/content/en_Footer/AboutUS/201904/t20190404_5758.html",
+         "iata_code": "MU",
+         "id": "arl_00009VME7DBgd2sGtBN3GR",
+         "name": "China Eastern Airlines"
+        },
+        "origin": {
+         "iata_code": "SYD",
+         "iata_country_code": "AU",
+         "id": "arp_syd_au",
+         "name": "Sydney Airport",
+         "latitude": -33.943011,
+         "longitude": 151.176138,
+         "icao_code": "YSSY",
+         "time_zone": "Australia/Sydney",
+         "city_name": "Sydney",
+         "iata_city_code": "SYD",
+         "type": "airport",
+         "city": {
+          "iata_code": "SYD",
+          "iata_country_code": "AU",
+          "id": "cit_syd_au",
+          "name": "Sydney",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "SYD",
+          "type": "city"
+         }
+        },
+        "destination": {
+         "iata_code": "PVG",
+         "iata_country_code": "CN",
+         "id": "arp_pvg_cn",
+         "name": "Shanghai Pudong International Airport",
+         "latitude": 31.143872,
+         "longitude": 121.806636,
+         "icao_code": "ZSPD",
+         "time_zone": "Asia/Shanghai",
+         "city_name": "Shanghai",
+         "iata_city_code": "SHA",
+         "type": "airport",
+         "city": {
+          "iata_code": "SHA",
+          "iata_country_code": "CN",
+          "id": "cit_sha_cn",
+          "name": "Shanghai",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "SHA",
+          "type": "city"
+         }
+        }
+       },
+       {
+        "id": "seg_0000BB168nAto4N8Kq8C3R",
+        "arriving_at": "2027-01-19T08:00:00",
+        "departing_at": "2027-01-19T00:50:00",
+        "destination_terminal": null,
+        "distance": null,
+        "duration": "PT14H10M",
+        "marketing_carrier_flight_number": "0709",
+        "operating_carrier_flight_number": "0709",
+        "origin_terminal": null,
+        "passengers": [
+         {
+          "passenger_id": "pas_0000BB168at5USziE7hnd7",
+          "cabin_class": "economy",
+          "cabin_class_marketing_name": "Economy",
+          "fare_basis_code": "T0Q0ABSD",
+          "baggages": [
+           {
+            "type": "checked",
+            "quantity": 2
+           },
+           {
+            "type": "carry_on",
+            "quantity": 1
+           }
+          ],
+          "cabin": {
+           "marketing_name": "Economy",
+           "name": "economy",
+           "amenities": {
+            "wifi": {
+             "available": true,
+             "cost": "free"
+            },
+            "seat": {
+             "type": "standard",
+             "legroom": "standard",
+             "pitch": "31"
+            },
+            "power": {
+             "available": true
+            }
+           }
+          }
+         }
+        ],
+        "stops": [],
+        "aircraft": {
+         "iata_code": "359",
+         "id": "arc_00009Y7soL1P9aXc7ZDTdo",
+         "name": "Airbus A350-900"
+        },
+        "marketing_carrier": {
+         "conditions_of_carriage_url": "https://uk.ceair.com/newCMS/uk/en/content/en_Footer/AboutUS/201904/t20190404_5758.html",
+         "iata_code": "MU",
+         "id": "arl_00009VME7DBgd2sGtBN3GR",
+         "name": "China Eastern Airlines"
+        },
+        "operating_carrier": {
+         "conditions_of_carriage_url": "https://uk.ceair.com/newCMS/uk/en/content/en_Footer/AboutUS/201904/t20190404_5758.html",
+         "iata_code": "MU",
+         "id": "arl_00009VME7DBgd2sGtBN3GR",
+         "name": "China Eastern Airlines"
+        },
+        "origin": {
+         "iata_code": "PVG",
+         "iata_country_code": "CN",
+         "id": "arp_pvg_cn",
+         "name": "Shanghai Pudong International Airport",
+         "latitude": 31.143872,
+         "longitude": 121.806636,
+         "icao_code": "ZSPD",
+         "time_zone": "Asia/Shanghai",
+         "city_name": "Shanghai",
+         "iata_city_code": "SHA",
+         "type": "airport",
+         "city": {
+          "iata_code": "SHA",
+          "iata_country_code": "CN",
+          "id": "cit_sha_cn",
+          "name": "Shanghai",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "SHA",
+          "type": "city"
+         }
+        },
+        "destination": {
+         "iata_code": "MAD",
+         "iata_country_code": "ES",
+         "id": "arp_mad_es",
+         "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+         "latitude": 40.49923,
+         "longitude": -3.567169,
+         "icao_code": "LEMD",
+         "time_zone": "Europe/Madrid",
+         "city_name": "Madrid",
+         "iata_city_code": "MAD",
+         "type": "airport",
+         "city": {
+          "iata_code": "MAD",
+          "iata_country_code": "ES",
+          "id": "cit_mad_es",
+          "name": "Madrid",
+          "latitude": null,
+          "longitude": null,
+          "icao_code": null,
+          "time_zone": null,
+          "city_name": null,
+          "iata_city_code": "MAD",
+          "type": "city"
+         }
+        }
+       }
+      ]
+     }
+    ],
+    "passengers": [
+     {
+      "id": "pas_0000BB168at5USziE7hnd7",
+      "type": "adult",
+      "fare_type": null,
+      "age": null,
+      "given_name": null,
+      "family_name": null,
+      "loyalty_programme_accounts": []
+     }
+    ],
+    "available_services": null,
+    "payment_requirements": {
+     "requires_instant_payment": false,
+     "payment_required_by": "2026-10-03T23:29:41.603464Z",
+     "price_guarantee_expires_at": null
+    },
+    "intended_services": null,
+    "available_airline_credit_ids": []
+   }
+  ],
+  "cabin_class": "economy",
+  "slices": [
+   {
+    "destination_type": "city",
+    "origin_type": "city",
+    "departure_date": "2026-12-26",
+    "destination": {
+     "city_name": null,
+     "icao_code": null,
+     "iata_city_code": "SYD",
+     "iata_country_code": "AU",
+     "airports": [
+      {
+       "city_name": "Sydney",
+       "icao_code": "YSBK",
+       "iata_city_code": "SYD",
+       "iata_country_code": "AU",
+       "iata_code": "BWU",
+       "latitude": -33.922523,
+       "longitude": 150.991461,
+       "time_zone": "Australia/Sydney",
+       "type": "airport",
+       "name": "Bankstown Airport",
+       "id": "arp_bwu_au"
+      },
+      {
+       "city_name": "Sydney",
+       "icao_code": null,
+       "iata_city_code": "SYD",
+       "iata_country_code": "AU",
+       "iata_code": "LBH",
+       "latitude": -33.5875,
+       "longitude": 151.323889,
+       "time_zone": "Australia/Sydney",
+       "type": "airport",
+       "name": "Palm Beach Seaplane Base Airport",
+       "id": "arp_lbh_au"
+      },
+      {
+       "city_name": "Sydney",
+       "icao_code": null,
+       "iata_city_code": "SYD",
+       "iata_country_code": "AU",
+       "iata_code": "RSE",
+       "latitude": -33.869877,
+       "longitude": 151.258458,
+       "time_zone": "Australia/Sydney",
+       "type": "airport",
+       "name": "Rose Bay Water Airport",
+       "id": "arp_rse_au"
+      },
+      {
+       "city_name": "Sydney",
+       "icao_code": "YSSY",
+       "iata_city_code": "SYD",
+       "iata_country_code": "AU",
+       "iata_code": "SYD",
+       "latitude": -33.943011,
+       "longitude": 151.176138,
+       "time_zone": "Australia/Sydney",
+       "type": "airport",
+       "name": "Sydney Airport",
+       "id": "arp_syd_au"
+      },
+      {
+       "city_name": "Sydney",
+       "icao_code": "YSWS",
+       "iata_city_code": "SYD",
+       "iata_country_code": "AU",
+       "iata_code": "WSI",
+       "latitude": -33.88806,
+       "longitude": 150.71472,
+       "time_zone": "Australia/Sydney",
+       "type": "airport",
+       "name": "Western Sydney International (Nancy-Bird Walton) Airport",
+       "id": "arp_wsi_au"
+      }
+     ],
+     "iata_code": "SYD",
+     "latitude": null,
+     "longitude": null,
+     "time_zone": null,
+     "type": "city",
+     "name": "Sydney",
+     "id": "cit_syd_au"
+    },
+    "origin": {
+     "city_name": null,
+     "icao_code": null,
+     "iata_city_code": "MAD",
+     "iata_country_code": "ES",
+     "airports": [
+      {
+       "city_name": "Madrid",
+       "icao_code": "LEMD",
+       "iata_city_code": "MAD",
+       "iata_country_code": "ES",
+       "iata_code": "MAD",
+       "latitude": 40.49923,
+       "longitude": -3.567169,
+       "time_zone": "Europe/Madrid",
+       "type": "airport",
+       "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+       "id": "arp_mad_es"
+      },
+      {
+       "city_name": "Madrid",
+       "icao_code": "LETO",
+       "iata_city_code": "MAD",
+       "iata_country_code": "ES",
+       "iata_code": "TOJ",
+       "latitude": 40.487654,
+       "longitude": -3.457359,
+       "time_zone": "Europe/Madrid",
+       "type": "airport",
+       "name": "Madrid\u2013Torrej\u00f3n Airport",
+       "id": "arp_toj_es"
+      }
+     ],
+     "iata_code": "MAD",
+     "latitude": null,
+     "longitude": null,
+     "time_zone": null,
+     "type": "city",
+     "name": "Madrid",
+     "id": "cit_mad_es"
+    }
+   },
+   {
+    "destination_type": "city",
+    "origin_type": "city",
+    "departure_date": "2027-01-18",
+    "destination": {
+     "city_name": null,
+     "icao_code": null,
+     "iata_city_code": "MAD",
+     "iata_country_code": "ES",
+     "airports": [
+      {
+       "city_name": "Madrid",
+       "icao_code": "LEMD",
+       "iata_city_code": "MAD",
+       "iata_country_code": "ES",
+       "iata_code": "MAD",
+       "latitude": 40.49923,
+       "longitude": -3.567169,
+       "time_zone": "Europe/Madrid",
+       "type": "airport",
+       "name": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+       "id": "arp_mad_es"
+      },
+      {
+       "city_name": "Madrid",
+       "icao_code": "LETO",
+       "iata_city_code": "MAD",
+       "iata_country_code": "ES",
+       "iata_code": "TOJ",
+       "latitude": 40.487654,
+       "longitude": -3.457359,
+       "time_zone": "Europe/Madrid",
+       "type": "airport",
+       "name": "Madrid\u2013Torrej\u00f3n Airport",
+       "id": "arp_toj_es"
+      }
+     ],
+     "iata_code": "MAD",
+     "latitude": null,
+     "longitude": null,
+     "time_zone": null,
+     "type": "city",
+     "name": "Madrid",
+     "id": "cit_mad_es"
+    },
+    "origin": {
+     "city_name": null,
+     "icao_code": null,
+     "iata_city_code": "SYD",
+     "iata_country_code": "AU",
+     "airports": [
+      {
+       "city_name": "Sydney",
+       "icao_code": "YSBK",
+       "iata_city_code": "SYD",
+       "iata_country_code": "AU",
+       "iata_code": "BWU",
+       "latitude": -33.922523,
+       "longitude": 150.991461,
+       "time_zone": "Australia/Sydney",
+       "type": "airport",
+       "name": "Bankstown Airport",
+       "id": "arp_bwu_au"
+      },
+      {
+       "city_name": "Sydney",
+       "icao_code": null,
+       "iata_city_code": "SYD",
+       "iata_country_code": "AU",
+       "iata_code": "LBH",
+       "latitude": -33.5875,
+       "longitude": 151.323889,
+       "time_zone": "Australia/Sydney",
+       "type": "airport",
+       "name": "Palm Beach Seaplane Base Airport",
+       "id": "arp_lbh_au"
+      },
+      {
+       "city_name": "Sydney",
+       "icao_code": null,
+       "iata_city_code": "SYD",
+       "iata_country_code": "AU",
+       "iata_code": "RSE",
+       "latitude": -33.869877,
+       "longitude": 151.258458,
+       "time_zone": "Australia/Sydney",
+       "type": "airport",
+       "name": "Rose Bay Water Airport",
+       "id": "arp_rse_au"
+      },
+      {
+       "city_name": "Sydney",
+       "icao_code": "YSSY",
+       "iata_city_code": "SYD",
+       "iata_country_code": "AU",
+       "iata_code": "SYD",
+       "latitude": -33.943011,
+       "longitude": 151.176138,
+       "time_zone": "Australia/Sydney",
+       "type": "airport",
+       "name": "Sydney Airport",
+       "id": "arp_syd_au"
+      },
+      {
+       "city_name": "Sydney",
+       "icao_code": "YSWS",
+       "iata_city_code": "SYD",
+       "iata_country_code": "AU",
+       "iata_code": "WSI",
+       "latitude": -33.88806,
+       "longitude": 150.71472,
+       "time_zone": "Australia/Sydney",
+       "type": "airport",
+       "name": "Western Sydney International (Nancy-Bird Walton) Airport",
+       "id": "arp_wsi_au"
+      }
+     ],
+     "iata_code": "SYD",
+     "latitude": null,
+     "longitude": null,
+     "time_zone": null,
+     "type": "city",
+     "name": "Sydney",
+     "id": "cit_syd_au"
+    }
+   }
+  ],
+  "live_mode": true,
+  "created_at": "2026-10-02T23:29:39.601069Z",
+  "passengers": [
+   {
+    "loyalty_programme_accounts": [],
+    "fare_type": null,
+    "family_name": null,
+    "given_name": null,
+    "user_id": null,
+    "age": null,
+    "type": "adult",
+    "id": "pas_0000BB168at5USziE7hnd7"
+   }
+  ],
+  "id": "orq_0000BB168at5USziE7hnct"
+ }
+}
