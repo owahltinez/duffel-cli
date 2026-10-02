@@ -45,7 +45,11 @@ def cli():
     help="One leg, e.g. MAD:SYD:2026-12-26; repeat for return or multi-city.",
 )
 @click.option(
-    "--adults", default=1, show_default=True, type=click.IntRange(1, 9)
+    "--adults",
+    default=1,
+    show_default=True,
+    type=click.IntRange(1, 9),
+    help="Prices are totals for all adults.",
 )
 @click.option(
     "--cabin", default="economy", show_default=True, type=click.Choice(CABINS)
@@ -72,6 +76,10 @@ def search(slices, adults, cabin, max_connections, airlines, limit):
         found = client.search(token, slices, adults, cabin, max_connections)
     except client.DuffelError as error:
         raise click.ClickException(str(error)) from None
-    airlines = {a.upper() for a in airlines}
-    for row in offers.summarize(found, airlines)[:limit]:
+    rows = offers.summarize(found, {a.upper() for a in airlines})
+    if not rows:
+        click.echo(
+            "No offers; Duffel may not sell this route or airline", err=True
+        )
+    for row in rows[:limit]:
         click.echo(json.dumps(row, ensure_ascii=False))

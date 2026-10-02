@@ -24,6 +24,9 @@ def hours_text(total):
 def _flight(segment):
     carrier = segment["marketing_carrier"]["iata_code"]
     number = segment["marketing_carrier_flight_number"].lstrip("0") or "0"
+    operator = segment["operating_carrier"]["iata_code"]
+    if operator != carrier:
+        return f"{carrier}{number} (op. {operator})"
     return carrier + number
 
 

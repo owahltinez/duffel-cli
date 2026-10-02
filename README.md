@@ -47,6 +47,8 @@ Options: `--adults`, `--cabin`, `--max-connections`, `--airline` and `--limit`.
 Times are local to each airport. A layover such as `LHR>LGW 4h00m` means
 changing airports. Unbranded fares show their fare basis codes instead, such as
 `Y2AFFYIT`; a leading `Y` usually means a full-price economy fare.
+Codeshares name the operating airline, as in `TP4441 (op. B6)`.
+Prices are totals for all passengers, in your Duffel account's currency.
 
 ## Scope
 

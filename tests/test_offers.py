@@ -47,6 +47,13 @@ def test_unbranded_fare_shows_fare_basis(found):
     assert rows[0]["slices"][0]["fare"] == "Y2AFFYIT/M2LFFYQQ"
 
 
+def test_flight_shows_codeshare_operator(found):
+    segment = found[0]["slices"][0]["segments"][0]
+    segment["operating_carrier"] = {"iata_code": "B6", "name": "JetBlue"}
+    flight = offers.summarize(found[:1])[0]["slices"][0]["flights"][0]
+    assert flight.endswith(" (op. B6)")
+
+
 def test_layover_flags_airport_change(found):
     segments = found[0]["slices"][0]["segments"]
     segments[1]["origin"] = {**segments[1]["origin"], "iata_code": "XXX"}

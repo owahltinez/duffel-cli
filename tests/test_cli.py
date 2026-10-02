@@ -36,6 +36,13 @@ def test_search_passes_slices_and_prints_rows(monkeypatch):
     assert len(rows) == 3
 
 
+def test_search_explains_empty_results(monkeypatch):
+    monkeypatch.setattr(client, "search", lambda *args: [])
+    result = _run(monkeypatch, ["--slice", "SYD:MEL:2026-11-07"])
+    assert result.exit_code == 0
+    assert "No offers" in result.output
+
+
 def test_search_rejects_bad_slice(monkeypatch):
     result = _run(monkeypatch, ["--slice", "MAD-SYD-2026-12-26"])
     assert result.exit_code == 2
