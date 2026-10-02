@@ -6,10 +6,10 @@ Built for AI agents: one compact JSON row per offer, cheapest first.
 ## Install
 
 ```sh
-uv tool install duffel-cli
+uv tool install git+https://github.com/owahltinez/duffel-cli
 ```
 
-The distribution is `duffel-cli`; the command it installs is `duffel`.
+This installs the `duffel` command.
 
 ## Authenticate
 
