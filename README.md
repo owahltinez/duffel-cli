@@ -45,7 +45,8 @@ Options: `--adults`, `--cabin`, `--max-connections`, `--airline` and `--limit`.
 ```
 
 Times are local to each airport. A layover such as `LHR>LGW 4h00m` means
-changing airports.
+changing airports. Unbranded fares show their fare basis codes instead, such as
+`Y2AFFYIT`; a leading `Y` usually means a full-price economy fare.
 
 ## Scope
 

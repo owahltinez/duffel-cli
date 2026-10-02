@@ -42,6 +42,11 @@ def test_summarize_flattens_slice(found):
     assert outbound["bags"] == {"checked": 2, "carry_on": 1}
 
 
+def test_unbranded_fare_shows_fare_basis(found):
+    rows = offers.summarize(found, {"CZ"})
+    assert rows[0]["slices"][0]["fare"] == "Y2AFFYIT/M2LFFYQQ"
+
+
 def test_layover_flags_airport_change(found):
     segments = found[0]["slices"][0]["segments"]
     segments[1]["origin"] = {**segments[1]["origin"], "iata_code": "XXX"}

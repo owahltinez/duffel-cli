@@ -45,6 +45,10 @@ def _slice(item):
         b["type"]: b["quantity"]
         for b in segments[0]["passengers"][0]["baggages"]
     }
+    # Unbranded fares fall back to fare basis codes, which reveal the class
+    basis = dict.fromkeys(
+        s["passengers"][0]["fare_basis_code"] for s in segments
+    )
     return {
         "route": "-".join(route),
         "depart": segments[0]["departing_at"][:16],
@@ -52,7 +56,7 @@ def _slice(item):
         "duration": hours_text(minutes(item["duration"])),
         "flights": [_flight(s) for s in segments],
         "layovers": [_layover(a, b) for a, b in pairwise(segments)],
-        "fare": item.get("fare_brand_name"),
+        "fare": item.get("fare_brand_name") or "/".join(basis),
         "bags": bags,
     }
 
