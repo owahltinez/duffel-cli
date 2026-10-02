@@ -16,9 +16,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # The floor and ceiling of requires-python, plus the version in
+        # The floor and ceiling of requires-python, plus the versions in
         # between: the suite is offline, so the full matrix stays cheap.
-        python-version: ["3.11", "3.12", "3.13"]
+        python-version: ["3.11", "3.12", "3.13", "3.14"]
 
     steps:
       - uses: actions/checkout@v7
